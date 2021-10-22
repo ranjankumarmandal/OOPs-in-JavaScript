@@ -2,12 +2,12 @@
 // Inheritence in JavaScript ES6
 
 class Person {
-    constructor(firstname, lastname) {
+    constructor(firstname, lastname) {                             // cnostructor - initiate all the data here and use them in its class methods
         this.firstname = firstname;
         this.lastname = lastname;
     }
 
-    greeting() {
+    greeting() {                                                   // method inside prototype of Person object
         return `Hello there ${this.firstname} ${this.lastname}`;
     }
 }

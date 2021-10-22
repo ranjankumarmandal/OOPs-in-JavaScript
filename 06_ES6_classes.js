@@ -4,7 +4,7 @@
 // All methods defined inside a class lies in the prototype of that related object instance
 
 class Person {                                     /* blue-print of object - a class */
-    constructor(firstname, lastname, dob) {
+    constructor(firstname, lastname, dob) {        /* initiate the data of class in constructor */
         this.firstname = firstname;
         this.lastname = lastname;
         this.dob = new Date(dob);
