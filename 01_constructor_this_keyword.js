@@ -1,3 +1,5 @@
+//---------------// constructors were used for OOPs in ES5, class were not used there //-----------------
+
 // object literals - this is fine if you want to create a single objec instance
 const ranjan = {name: 'Ranjan', age: 22};                /* single object instance */
 
